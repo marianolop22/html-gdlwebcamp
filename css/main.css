@@ -852,7 +852,6 @@ div.tabla-precio p.numero {
 /* MAPA */
 div.mapa {
   height: 42rem;
-  background-color: green;
 }
 
 
@@ -1025,3 +1024,155 @@ p.copyright {
   margin: 2rem 0 0 0;
 }
 
+/* INTERNAS */
+/* registro.html */
+form.registro h3 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 2rem 0 0 0;
+}
+
+form.registro label {
+  margin-bottom: .5rem;
+  /* font-weight: bold; */
+  font-size: 1.3rem;
+}
+
+h4 {
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: .2rem solid #fe4918;
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+div.caja {
+  background-color: white;
+  border: .1rem solid #e1e1e1;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+div.campo {
+  padding: 2rem;
+
+}
+
+
+@media (min-width: 768px) {
+  div.campo {
+    float: left;
+    width: 33.3%;
+  }
+}
+
+div.paquetes .tabla-precio:hover {
+  transform: none;
+  box-shadow: none;
+
+}
+
+div.paquetes .tabla-precio input {
+  clear: both;
+  width: 8rem;
+  margin: 1rem auto 0 auto;
+  display: block;
+}
+
+div.paquetes .tabla-precio label {
+  font-size: 1.4rem;
+}
+
+.contenido-dia {
+  padding: 2rem;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .contenido-dia > div {
+    float: left;
+    width: 33.3%;
+  }
+}
+
+.contenido-dia > div p {
+  text-align: left;
+}
+.contenido-dia > div label {
+  display: block;
+  margin-bottom: 1rem;
+
+}
+
+.contenido-dia > div input {
+  margin-right: .3rem;
+}
+
+.contenido-dia > div label time {
+  color: #fe4918;
+  font-weight: bold;
+}
+
+
+/* resumen registro */
+.resumen p {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.resumen .extras {
+  float: left;
+  width: 50%;
+  padding: 3rem;
+}
+
+div.resumen div.extras div.orden {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+div.resumen div.extras div.orden input {
+  margin: 1rem 0 0 0;
+  display: block;
+}
+
+.resumen .total {
+  float: right;
+  width: 50%;
+  padding: 3rem;
+}
+
+.resumen .total p {
+  font-size: 1.4rem;
+
+}
+
+.resumen input {
+  display: block;
+  margin: 2rem auto;
+}
+
+#lista-productos {
+  background-color: #e1e1e1;
+  padding: 1rem;
+  display: none;
+  font-size: 1.3rem;
+  margin: 1rem;
+}
+
+#suma-total {
+  text-align: center;
+  font-size: 2rem;
+  color: #fe4918;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+#error {
+  clear: both;
+  padding: 2rem;
+  text-align: center;
+  display: none;
+}
